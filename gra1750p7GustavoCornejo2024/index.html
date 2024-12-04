@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Movie Website</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			font-family: "Bangers", system-ui;
+		}
+		wrapper {
+			display: block;
+			margin: auto;
+			position: relative;
+		}
+		header {
+			height: 100px;
+			padding: 15px;
+		}
+		#trailer {
+			min-width: 100%;
+			height: 100%;
+			position: fixed;
+			right: 0;
+			bottom: 0;
+		}
+		.banner-video {
+  			position: absolute;
+  			top: 0;
+  			left: 0;
+  			right: 0;
+  			bottom: 0;
+  			overflow: hidden;
+  			z-index: -1;
+		}
+		.banner-text {
+			background-color: rgba(81,81,81,0.43);
+		}
+		h1 {
+			font-size: 80px;
+			text-align: center;
+			color: #FF0004;
+			text-shadow: -1px 6px 2px #000;
+		}
+		nav {
+			text-align: center;
+			font-size: 40px;
+		}
+		home:hover synopsis:hover trailer:hover cast:hover follow:hover {
+			cursor: pointer;
+		}
+		li {
+			display: inline-block;
+			color: #FFF800;
+			padding: 40px;
+			text-shadow: -1px 6px 2px #0600FF;
+		}
+		section {
+			font-size: 25px;
+			padding: 20px;
+		}
+		footer {
+			font-size: 12px;
+			padding: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<wrapper>
+			<div class="banner-video">
+		<video autoplay muted loop id="trailer">
+			<source src="trailer.mp4" type="video/mp4"></video>
+		</div>
+<div class="banner-text">
+<h1>Squid Game</h1>
+<nav>
+	<ul>
+<li class="home">HOME</li>
+<li class="synopsis">SYNOPSIS</li>
+<li class="trailer">TRAILER</li>
+<a href="https://www.imdb.com/title/tt10919420/fullcredits/?ref_=tt_cst_sm" target="CAST &#38; CREW"></a><li class="cast">CAST &#38; CREW</li>
+<li class="follow">FOLLOW</li>
+</ul>
+	</nav>
+</div>
+		<br>
+		<main>
+			<section>
+		<p>
+		Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.
+</p>
+			</section>
+		</main>
+		<footer>
+		<p>&copy; 2024, Gustavo Cornejo.</p>
+<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+
+</body>
+</html>
