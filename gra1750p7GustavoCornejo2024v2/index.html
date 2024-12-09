@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Caprasimo&family=Gravitas+One&family=Limelight&family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Pirata+One&family=Trocchi&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Squid Game</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin: 0;
+			font-family: "Square Game", system-ui;
+			background-color: #000000;
+			background-image: url(bg.jpg);
+			background-size: cover;
+			background-position: top;
+		}
+		wrapper {
+			display: block;
+			margin: auto;
+			width: 100%;
+		}
+		header {
+			height: 100px;
+			padding: 15px;
+		}
+		.banner-video {
+			text-align: center;
+		}
+		
+		h1 {
+			font-size: 100px;
+			text-align: center;
+			color: #f04ca2;
+			text-shadow: -1px 6px 2px #FFFFFF;
+		}
+		ul {
+			padding: 20px;
+			text-align: center;
+			font-size: 50px;
+		}
+		.home:hover, .synopsis:hover, .trailer:hover, .cast:hover, .follow:hover {
+			cursor: pointer;
+		}
+		li {
+			display: inline;
+			padding: 40px;
+			color: #1FAC75;
+			text-shadow: -1px 6px 2px #FFFFFF;
+		}
+		section {
+			display: inline-block;
+			padding: 60px;
+		}
+		.summary {
+			text-align: left;
+			font-size: 40px;
+			margin: 0 20px;
+			padding: 0 100px;
+		}
+		.trailervideo {
+			margin: 0 60px;
+		}
+		a {
+			color: #1FAC75;
+			text-decoration: none;
+		}
+		footer {
+			font-size: 12px;
+			padding: 40px;
+			color: #FFFFFF;
+		}
+		p {
+			font-family: "Oswald", sans-serif;
+			color: #FFFFFF;
+		}
+	</style>
+</head>
+<body>
+	<wrapper>
+			<div id="home" class="banner-video">
+		<video autoplay muted loop id="trailer">
+			<source src="trailer.mp4" type="video/mp4"></video>
+		</div>
+
+<h1>Squid Game</h1>
+<nav>
+	<ul>
+		<li><a class="home" href="#home">HOME</a></li>
+		<li><a class="synopsis" href="#synopsis">SYNOPSIS</a></li>
+		<li><a class="trailer" href="#sgtrailer">TRAILER</a></li>
+		<li><a class="cast" href="https://www.imdb.com/title/tt10919420/fullcredits/?ref_=tt_cst_sm" target="new">CAST &#38; CREW</a></li>
+		<li><a class="follow" href="https://www.netflix.com/title/81040344" target="new">WHERE TO WATCH</a></li>
+</ul>
+	</nav>
+
+		<main>
+			<section class="summary">
+		<div id="synopsis">
+				<p>
+		Hundreds of cash&#45;strapped players accept a strange invitation to compete in children's games. Inside, a tempting prize awaits &#45; with deadly high stakes.
+</p>
+			<p>Season 2 Coming December 26</p>
+				</div>
+			</section>
+			<section>
+				<div id="sgtrailer">
+				<video class="trailervideo" width="620" height="410" controls>
+					<source src="sgtrailer1.mp4" type="video/mp4">
+					</video>
+				</div>
+			</section>
+		</main>
+		<footer>
+		<p>&copy; 2024, Gustavo Cornejo.</p>
+<p>This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+
+</body>
+</html>
